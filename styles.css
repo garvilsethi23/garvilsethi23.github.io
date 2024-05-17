@@ -1,0 +1,398 @@
+body{
+    margin:0;
+   height: 100vh;
+}
+main{
+    background-color: hsl(0, 0%, 98%);
+}
+
+h1{
+    background: repeating-linear-gradient(
+        150deg,
+        #2e2f32,
+        #1a1c27 20px,
+        #0e101a 80px,
+        #04050c 40px
+      );
+    color: white;
+    font-size: 50px;
+    padding-left: 15px;
+    height: 90px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    margin:0px;
+    
+}
+
+ 
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 100%);
+    padding: 0px;
+    margin: 15px;
+    overflow: hidden;
+    height: 60px;
+    margin-top:0px ;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: black;
+    color: white;
+}
+
+.navbar li{
+    float: left;
+}
+#home{
+    background-color: black;
+    color:white;
+}
+
+.navbar li:nth-child(8){
+    float: right;
+    padding-top: 10px;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+
+.bn ul{
+    list-style-type:none;
+    background-color: hsl(0, 5%, 92%);
+    /* overflow:hidden; */
+    height: 25px;
+    margin-top:-16px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.bn li{
+    float: left;
+}
+
+.bn li:nth-child(4){
+    float:right;
+    padding-right: 15px;
+    padding-left: 0;
+    color: rgb(105, 104, 104);
+}
+
+.bn li:nth-child(2){
+    padding-left: 100px;
+    padding-right: 690px;
+    color: rgb(105, 104, 104);
+    padding-top: 2px;
+}
+
+.bn li:nth-child(3){
+    padding-right:0px;
+    font-size: 25px;
+    padding-bottom: 5px;
+    
+}
+.bn li:nth-child(1){
+    margin-left: -20px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 3px;
+}
+
+#i1{
+    height: 450px;
+    margin-left: 30px;
+    margin-right: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width:400px;
+}
+#i2{
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+#i3{
+    height:215px ;
+    width:215px ;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    opacity: 1;
+}
+
+
+.hello {
+position: relative;
+display: inline-block;
+}
+
+#i4{
+    position: absolute;
+    bottom: 265px;
+    right: 0px;
+    height:215px ;
+    width:215px;
+    border-radius: 5px;
+}
+
+.frontimage{
+    position: relative;
+    
+}
+
+.frontimage img:hover{
+    border: solid 3px;
+    box-shadow: rgb(255, 0, 0);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+#textin1{
+    position: absolute;
+    bottom:100px;
+    left: 50px;
+    display: block;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.smalltext1{
+    position: absolute;
+    font-size: small;
+    top: 110px;
+}
+.buttonin1{
+    position: absolute;
+    bottom:110px;
+}
+
+#textin2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    left: 18px;
+    bottom:100px;
+    margin-left: 5px;
+}
+.smalltext2{
+    position: absolute;
+    font-size: small;
+    top: 80px;
+    font-size: 15px;
+}
+.buttonin2{
+    position: absolute;
+    bottom:80px;
+}
+
+#textin3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: block;
+    font-size: 15px;
+    left: 18px;
+    bottom:100px;
+    margin-left: -5px;
+}
+.smalltext3{
+    position: absolute;
+    font-size: small;
+    top: 50px;
+    font-size: 15px;
+}
+.buttonin3{
+    position: absolute;
+    bottom:50px;
+}
+
+#textin4{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: block;
+    font-size: 15px;
+    left: 18px;
+    bottom:330px;
+    margin-left: -5px;
+}
+.smalltext4{
+    position: absolute;
+    font-size: small;
+    top: 40px;
+    font-size: 15px;
+}
+.buttonin4{
+    position: absolute;
+    bottom:50px;
+}
+
+.culture{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.featured{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+main{
+    position: relative;
+}
+.but {
+    display: inline-block;
+    margin-left: 90px;
+    margin-right: 5px;
+    margin-top: 25px;
+    position: absolute;
+    scale: 3;
+    bottom:450px;
+  transform: translateX(8px);
+
+
+}
+
+.but button{
+    
+    border: none;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#b2{
+    margin-right: 5px;
+    margin-left: -3.9px;;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px ;
+}
+#b1{
+    background-color: black;
+    color: white;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px ;
+}
+#b2:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.but button:active{
+    background-color: black;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 95px;
+    margin-bottom: px;
+    padding-top: 30px;
+    background-color: hsl(0, 0%, 100%);
+    padding-right: 80px;
+    padding-left: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 315px;
+    float: right;
+    height: 370px;
+    max-height: 600px;
+    position: static;
+}
+
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+ 
+section img{
+height: 85px;
+width: 85px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+.sideimages{
+margin-top: -10px;
+padding-top: -50px;
+float: left;
+margin-right: 20px;
+;
+
+}
+
+.sideimage{
+ position: relative;
+}
+
+.sideimage img:hover{
+    height: 88px;
+    width: 88px;
+    border: solid;
+}
+.text1{
+    left: 100px;
+    text-align: left;
+}
+.but button{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-box {
+
+    height: 230px;
+    width: 400px;
+    display: none; /* Hidden by default */
+    justify-content: center;
+    position: absolute;
+    top: 60px;
+    right: 35%;
+    background: linear-gradient(to right, #80b713, #0fabff);
+    border: 3px solid #100707;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(238, 7, 7, 0.1);
+    z-index: 10;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+
+}
