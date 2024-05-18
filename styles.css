@@ -151,10 +151,10 @@ display: inline-block;
     
 }
 
-.frontimage img:hover{
+/* .frontimage img:hover{
     border: solid 3px;
     box-shadow: rgb(255, 0, 0);
-}
+} */
 
 .dropdown-content {
     display: none;
