@@ -152,8 +152,7 @@ display: inline-block;
 }
 
 .frontimage img:hover{
-    border: solid 3px;
-    box-shadow: rgb(255, 0, 0);
+   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
 } 
 
 .dropdown-content {
@@ -364,9 +363,7 @@ margin-right: 20px;
 }
 
 .sideimage img:hover{
-    height: 86px;
-    width: 86px;
-    border: solid;
+   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
 }
 .text1{
     left: 100px;
